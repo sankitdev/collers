@@ -26,14 +26,14 @@ const TestimonialSection = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-8">
       <div className="flex justify-between items-center mb-8">
-        <h2 className="text-2xl font-bold text-gray-900">
+        <h2 className="text-2xl font-bold text-gray-900 ">
           Because they love us
         </h2>
-        <div className="flex gap-2">
-          <button className="w-8 h-8 flex items-center justify-center rounded-full border border-gray-200 text-gray-400 hover:bg-gray-50">
+        <div className="flex gap-2  ">
+          <button className="w-8 h-8  flex items-center justify-center rounded-full border border-amber-900 text-amber-900 hover:bg-gray-50">
             ←
           </button>
-          <button className="w-8 h-8 flex items-center justify-center rounded-full border border-gray-200 text-gray-400 hover:bg-gray-50">
+          <button className="w-8 h-8 flex items-center justify-center rounded-full border border-amber-900 text-amber-900 hover:bg-gray-50">
             →
           </button>
         </div>
