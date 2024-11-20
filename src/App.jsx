@@ -1,3 +1,4 @@
+import CollectionSection from "./components/Fifth";
 import TestimonialSection from "./components/Four";
 import Hero from "./components/hero";
 import Second from "./components/Second";
@@ -9,6 +10,7 @@ export default function App() {
       <Second />
       <Third />
       <TestimonialSection />
+      <CollectionSection />
     </div>
   );
 }
